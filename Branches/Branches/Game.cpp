@@ -147,7 +147,11 @@ void Game::setupFontAndText()
 /// </summary>
 void Game::setupSprite()
 {
-	if (!m_logoTexture.loadFromFile("ASSETS\\IMAGES\\car.jpg"))
+
+	//if (!m_logoTexture.loadFromFile("ASSETS\\IMAGES\\car.jpg"))
+
+	if (!m_logoTexture.loadFromFile("ASSETS\\IMAGES\\SFML.png"))
+
 	{
 		// simple error message if previous call fails
 		std::cout << "problem loading logo" << std::endl;
